@@ -6,3 +6,20 @@
 h2 {
     font-size: 2em;
 }
+
+.pagecontainer {
+    background-color: #94cfc0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobilecontainer {
+    height: 90vh;
+    width: clamp(400px, 60%, 640px);
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
