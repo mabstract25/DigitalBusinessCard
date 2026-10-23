@@ -12,6 +12,8 @@ h2 {
     font-size: 2em;
 }
 
+/* Container Styles */
+
 .pagecontainer {
     background-color: #94cfc0;
     width: 100vw;
@@ -27,6 +29,20 @@ h2 {
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-items: center;
 }
+
+/* Image Styles */
+
+.headerimgcontainer {
+    background-image: url(/src/images/Headerbgimg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    grid-area: 1/1/3/1;
+}
+
+
