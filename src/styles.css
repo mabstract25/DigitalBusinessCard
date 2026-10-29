@@ -94,7 +94,8 @@ a {
 .pgrid {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0.5em 0em
+    padding: 0.5em 0em;
+    gap: 0.3em;
 }
 
 .pitem {
@@ -102,6 +103,14 @@ a {
     grid-template-columns: 1fr 5fr;
     gap: 1em;
     align-items: center;
+    justify-content: center;
+}
+
+
+
+.icon {
+    display: flex;
+    justify-content: center;
 }
 
 .termsandconditions{
