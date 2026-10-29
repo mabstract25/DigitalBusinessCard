@@ -80,6 +80,7 @@ a {
     align-items: center;
     justify-items: center;
     border-radius: 1em;
+    gap: 1em;
 }
 
 .personaldetails {
@@ -101,6 +102,10 @@ a {
     grid-template-columns: 1fr 5fr;
     gap: 1em;
     align-items: center;
+}
+
+.termsandconditions{
+    height: 3em;
 }
 
 /* Image Styles */
@@ -133,8 +138,10 @@ a {
     background-repeat: no-repeat;
     width: 90%;
     height: 90%;
-    grid-area:5/1/7/1;
+    grid-area:5/1/8/1;
 }
+
+
 
 .icon{
     padding: 0.3em;
