@@ -15,8 +15,13 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
+        filename: "index.html",
         template: "./src/index.html",
-    })
+    }),
+    new HtmlWebpackPlugin({
+        filename: "mark.html",
+        template: "./src/mark.html",
+    }),
   ],
   module: {
     rules: [

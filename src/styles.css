@@ -141,7 +141,7 @@ a {
 }
 
 .code{
-    background-image: url(/src/images/andynicolqr.svg);
+    
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,6 +150,13 @@ a {
     grid-area:5/1/8/1;
 }
 
+#andycode {
+    background-image: url(/src/images/andynicolqr.svg);
+}
+
+#markcode {
+    background-image: url(/src/images/markfryerqr.svg);
+}
 
 
 .icon{
