@@ -38,6 +38,10 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-size: 1em;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -156,6 +160,10 @@ a {
 
 #markcode {
     background-image: url(/src/images/markfryerqr.svg);
+}
+
+#davidcode {
+    background-image: url(/src/images/davidnikolichqr.svg);
 }
 
 

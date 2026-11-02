@@ -22,6 +22,10 @@ export default {
         filename: "mark.html",
         template: "./src/mark.html",
     }),
+    new HtmlWebpackPlugin({
+        filename: "david.html",
+        template: "./src/david.html",
+    }),
   ],
   module: {
     rules: [
